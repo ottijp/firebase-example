@@ -1,6 +1,12 @@
 {
   "rules": {
     ".read": "auth != null",
-    ".write": "auth != null"
+    ".write": "auth != null",
+
+    "firebase-example": {
+      "data": {
+        ".indexOn": ["prefecture"]
+      }
+    }
   }
 }
